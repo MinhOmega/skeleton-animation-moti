@@ -2,7 +2,7 @@ name: Sync and Rewrite Authors
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs at 12:00 PM UTC every day
+    - cron: '0 0 15 * *'
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
